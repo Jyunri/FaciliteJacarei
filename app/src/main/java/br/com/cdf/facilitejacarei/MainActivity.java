@@ -6,21 +6,22 @@ import android.os.Bundle;
 import android.text.method.Touch;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button btGuia, btPromocoes, btFacebook, btMais;
+    ImageButton btGuia, btPromocoes, btFacebook, btMais;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btGuia = (Button)findViewById(R.id.btGuia);
-        btPromocoes = (Button)findViewById(R.id.btMais);
-        btFacebook = (Button)findViewById(R.id.btFacebook);
-        btMais = (Button)findViewById(R.id.btMais);
+        btGuia = (ImageButton)findViewById(R.id.btGuia);
+        btPromocoes = (ImageButton)findViewById(R.id.btMais);
+        btFacebook = (ImageButton)findViewById(R.id.btFacebook);
+        btMais = (ImageButton)findViewById(R.id.btMais);
 
         btGuia.setOnClickListener(this);
         btPromocoes.setOnClickListener(this);

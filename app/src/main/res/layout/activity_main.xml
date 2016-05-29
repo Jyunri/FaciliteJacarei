@@ -16,44 +16,59 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:id="@+id/linearLayout"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#000000">
+        android:background="#1742a8">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:layout_width="5dp"
+            android:layout_height="60dp"
             android:text="G"
             android:id="@+id/btGuia"
             android:layout_weight="1"
-            android:background="#89fbed"/>
+            android:src="@drawable/findicon"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="#1742a8" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:layout_width="5dp"
+            android:layout_height="60dp"
             android:text="P"
             android:id="@+id/btPromocoes"
             android:layout_weight="1"
-            android:background="#89fbed"/>
+            android:src="@drawable/saleicon"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="#1742a8" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+        <ImageButton
+            android:layout_width="1dp"
+            android:layout_height="60dp"
             android:text="F"
             android:id="@+id/btFacebook"
             android:layout_weight="1"
-            android:background="#89fbed"/>
+            android:src="@drawable/fbicon"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="#1742a8" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+        <ImageButton
+            android:layout_width="5dp"
+            android:layout_height="60dp"
             android:text="M"
             android:id="@+id/btMais"
             android:layout_weight="1"
-            android:background="#89fbed"/>
+            android:src="@drawable/hamburgericon"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="#1742a8" />
+
     </LinearLayout>
 
 </RelativeLayout>

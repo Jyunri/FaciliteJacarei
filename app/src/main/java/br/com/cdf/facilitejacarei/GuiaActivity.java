@@ -11,6 +11,7 @@ public class GuiaActivity extends AppCompatActivity implements View.OnClickListe
     Button btMapa, btLista;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guia);
 

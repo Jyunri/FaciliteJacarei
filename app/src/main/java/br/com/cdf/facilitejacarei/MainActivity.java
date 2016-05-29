@@ -3,8 +3,10 @@ package br.com.cdf.facilitejacarei;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.Touch;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             case(R.id.btGuia):
                 startActivity(new Intent(this,GuiaActivity.class));
+                Toast.makeText(getApplicationContext(),"Carregando guias",Toast.LENGTH_SHORT).show();
                 break;
 
         }

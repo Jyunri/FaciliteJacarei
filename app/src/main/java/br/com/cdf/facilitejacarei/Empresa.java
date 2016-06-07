@@ -5,6 +5,12 @@ package br.com.cdf.facilitejacarei;
  */
 public class Empresa {
     String nome;
+    String tipo;
+    String descricao;
 
-
+    public Empresa(String nome, String tipo, String descricao) {
+        this.nome = nome;
+        this.tipo = tipo;
+        this.descricao = descricao;
+    }
 }
